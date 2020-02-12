@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="refresh" content="60">
+    <title>proyectosei.ddns.net</title>
+    <script src="aqi.js"></script>
+    <link rel='stylesheet' href='style.css'>
+  </head>
+  <body>
+    <div class="container">
+        <h1>
+	Estación medición calidad del aire
+	</h1>
+	<h2>
+	proyectosei.ddns.net
+	</h2>
+	<h3>
+	Segundo Moreno Torres y Germán Artigot Cortizo
+	</h3>
+	<h5>1º Máster de Ingeniería de Telecomunicación</h5>
+<p>Date and time:<p>
+      <p class='time' id="time"></p>
+<p>Temperature(ºC):<p>
+      <p class='temp'Temperature: id="temp"></p>
+<p>Humidity(%):<p>
+      <p class='hum'Humidity: id="hum"></p>
+<p>LPG(%):<p>
+      <p class='LPG'LPG: id="LPG"></p>
+<p>CO(%):<p>
+      <p class='CO'CO: id="CO"></p>
+<p>Smoke(%):<p>
+      <p class='Smoke'Smoke: id="Smoke"></p>
+
+      <div class='aqi-container' id="containerPm25">
+          <div class='aqi-label'>AQI (PM2.5)</div>
+          <div class='aqi' id="aqiPm25"></div>
+          <div class='pm-label' id="pm25"></div>
+      </div>
+
+      <div class='aqi-container' id="containerPm10">
+          <div class='aqi-label'>AQI (PM10)</div>
+          <div class='aqi' id="aqiPm10"></div>
+          <div class='pm-label' id="pm10"></div>
+      </div>
+
+<h6>
+<IMG SRC="descarga.png" ALIGN=BOTTOM WIDTH=600 HEIGTH=120> 
+Tabla de comparativas de los indices AQI, en función de su gravedad.
+</h6>
+
+
+<h9>
+<IMG SRC="PM.jpeg" ALIGN=BOTTOM WIDTH=500 HEIGTH=200>  
+</h9>
+
+<h7>
+<IMG SRC="GASES.jpeg" ALIGN=BOTTOM WIDTH=500 HEIGTH=200> 
+
+</h7>
+
+<h8>
+<IMG SRC="TEMP_Y_HUM.jpeg" ALIGN=BOTTOM WIDTH=500 HEIGTH=200>
+</h8>
+
+
+    </div>
+  </body>
+  <script type="text/javascript">
+    getData();
+    setInterval(getData, 60000);
+  </script>
+</html>
+
+
+
+<h4>
+<script type='text/javascript' src='http://www.aemet.es/es/eltiempo/prediccion/municipios/launchwidget/granada-id18087?w=g4p11110101ohmffffffw898z248x4f86d9t95b6e9r1s8n2'>
+</script>
+<noscript>
+	<div align=”center”>
+	<a>
+	target='_blank' 
+	style='font-weight: bold;
+	font-size: 1.20em;' 
+	href='http://www.aemet.es/es/eltiempo/prediccion/municipios/granada-id18087'El Tiempo. Consulte la predicción de la AEMET para Granada
+	</a>
+</noscript>
+</h4>

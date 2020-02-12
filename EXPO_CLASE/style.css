@@ -1,0 +1,122 @@
+.container {
+   	margin-left: auto;
+    	margin-right: auto;
+    	max-width: 600px;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+html{
+	min-height: 100%;
+}
+h1 {
+  font-style:italic;
+  font-weight:bold;
+  font-size:2em;
+  font-color:#ff0000;
+  font-family:'Helvetica','Verdana','Monaco',sans-serif;
+  text-align: center;
+}
+
+h2{
+	text-align: center;
+	font-weight: 400;
+}
+
+h3{
+	text-align: center;
+	font-weight: 300;
+}
+h4{
+	text-align: center;
+}
+h5{
+	text-align: center;
+	font-weight: 300;
+}
+
+
+body{
+	background: -webkit-linear-gradient(#93B874, #C9DCB9); 
+	background: -o-linear-gradient(#93B874, #C9DCB9); 
+	background: -moz-linear-gradient(#93B874, #C9DCB9); 
+	background: linear-gradient(#93B874, #C9DCB9); 
+	background-color: #93B874;
+
+}
+
+.aqi-container {
+    border: 3px solid;
+    border-radius: 10px;
+    width: 250px;
+    float: left;
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+font-size: 1em;
+}
+
+.info-container{
+    border: 2px solid;
+    border-radius: 10px;
+    width: 600px;
+    float: left;
+    margin: 15px;
+    text-align: center;
+    padding: 10px;
+}
+
+}
+
+.aqi {
+	font-size: 4em;
+	font-weight: bold;
+}
+
+.pm-label {
+	font-size: 1em;
+	font-style: italic;
+	font-weight: bold;
+
+}
+
+.time {
+
+	font-weight: bold;
+   	text-align: center;
+	font-weight: 200;
+}
+.temp {
+
+	font-weight: bold;
+   	text-align: center;
+	font-weight: 200;
+}
+.hum {
+
+	font-weight: bold;
+   	text-align: center;
+	font-weight: 200;
+}
+.LPG {
+
+	font-weight: bold;
+   	text-align: center;
+	font-weight: 200;
+}
+.CO {
+
+	font-weight: bold;
+   	text-align: center;
+	font-weight: 200;
+}
+.Smoke {
+
+	font-weight: bold;
+   	text-align: center;
+	font-weight: 200;
+}
+h2 {
+  text-align: center;
+}
